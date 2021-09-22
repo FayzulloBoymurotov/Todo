@@ -1,0 +1,75 @@
+/* HOMEWORK-6 */
+
+body {
+    background-color: #5352ed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    padding: 8px 50px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 50px;
+    border-radius: 2px;
+    background-color: #9AECDB;
+}
+
+button:hover {
+    transition: .3 ease-in-out;
+    background-color: cyan;
+}
+
+button:active {
+    transition: .3 ease-in-out;
+    background-color: #32ff7e;
+}
+
+input {
+    padding: 8px 7px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #9AECDB;
+    border-radius: 2px;
+}
+
+input:hover {
+    transition: .3 ease-in-out;
+    background-color: cyan;
+}
+
+input:active {
+    transition: .3 ease-in-out;
+    background-color: #32ff7e;
+}
+
+.list-items {
+    list-style: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 50px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+}
+
+.list-item {
+    color: cyan;
+    margin-right: 50px;
+    padding: 30px;
+    border: 5px solid #0c2461;
+    margin: 15px;
+    border-radius: 5px;
+}
